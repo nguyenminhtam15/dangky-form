@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương trình MTIC - GreenViet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header {
+            background-color: #3aad35;
+            color: white;
+            padding: 10px 0;
+        }
+        .logo {
+            float: left;
+            padding-left: 30px;
+        }
+        nav {
+            text-align: center;
+            padding: 5px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('header-bg.jpg') center center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 20px 40px;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        .hero h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+        .hero .breadcrumb {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #3aad35;
+        }
+        .content p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="greenviet-logo.png" alt="GreenViet" height="40">
+        </div>
+        <nav>
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">VỀ CHÚNG TÔI</a>
+            <a href="#">CHƯƠNG TRÌNH</a>
+            <a href="#">TIN TỨC</a>
+            <a href="#">TÀI TRỢ</a>
+            <a href="#">CHÚNG TÔI CẦN BẠN</a>
+            <a href="#">THƯ VIỆN</a>
+            <a href="#">LIÊN HỆ</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="breadcrumb">Trang chủ - Chương trình</div>
+        <h1>CHƯƠNG TRÌNH MỘT TRIỆU CÂY XANH ĐÔ THỊ VIỆT NAM (MTIC)</h1>
+    </section>
+
+    <section class="content">
+        <h2>GIỚI THIỆU</h2>
+        <p>
+            MTIC là một chương trình gồm nhiều dự án tại các địa phương, trong đó Đà Nẵng, Hà Nội, và TP Hồ Chí Minh là 3 địa điểm trọng tâm.
+            GreenViet dự kiến sẽ thực hiện chương trình này trong thời gian 10 năm (2020–2030) để trồng được 1 triệu cây xanh.
+        </p>
+    </section>
+
+</body>
+</html>
